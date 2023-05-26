@@ -1,0 +1,293 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+    <script lang="javascript">
+        alert("Hi! read the question to your child than click on box beside the answer that he choosed,each question have just one correct answer");
+    </script>
+    <title>Kiddos IQ test</title>
+</head>
+<body>
+
+    <title>Kiddos IQ test</title>
+</head>
+<body>
+    <script lang="javascript">
+        function Result () {
+            let s=0;
+            if (document.getElementById("leopard").checked){
+                s++;
+            }
+            if (document.getElementById("snake").checked == true){
+                s++;
+            }
+            if (document.getElementById("black").checked == true){
+                s++;
+            }
+            if (document.getElementById("4").checked == true){
+                s++;
+            }
+            if (document.getElementById("8").checked == true ){
+                s++;
+            }
+            if (document.getElementById("tongue").checked == true){
+                s++;
+            }
+
+            
+            switch(s){
+                case 0:
+                case 1:
+                case 2:
+                case 3:
+                    document.getElementById("result").value = s.toString() +"/6 good job ,you can do better";
+                break;
+                case 4:
+                case 5:
+                    document.getElementById("result").value = s.toString() +"/6 good job, you are so smart";
+                breck;
+                case 6:
+                    document.getElementById("result").value = s.toString() +"/6 you are a GENIUS !";
+                break;
+            }
+        }
+
+    </script>
+
+    <section class="sec1">
+
+     <div class="container">
+
+        <h1>KIDDOS</h1>
+
+     </div>
+
+     <br>
+     <br>
+
+     <div class="row container">
+        <div class="col-md-6 col-lg-6 col-sm-12">
+          <p>
+            Each child is unique <br>and learns differently,<br>
+            Each kid is <span>SMART</span> 
+            in his way
+          </p>
+          <p class="p1">
+            it is just an evaluation test.
+          </p>
+        </div>
+        <div class="col-md-6 col-lg-6 col-sm-12">
+           
+            <img src="./images/KidsIQ.jpeg" class="img"alt="image">
+           
+        </div>
+     </div>
+        
+
+    </section>
+    <br>
+    <br>
+     
+    <section class="container">
+
+    <center>
+        <h2>let's start</h2>
+    </center>
+
+    <br>
+    <br>
+
+    <div>
+        <table>
+            <th>
+                1/ the fastest animal is :
+            </th>
+            <tr>
+                <td class="Qtd"><img src="./images/lion.jpeg" class="Qimg" alt="image"></td>
+                <td class="Qtd"><img src="./images/leopard.jpeg" class="Qimg" alt="image"></td>
+                <td class="Qtd"><img src="./images/tiger.webp" class="Qimg" alt="image"></td>
+            </tr>
+            <tr>
+                <td class="Atd">
+                    <input type="radio" id="lion" name="answer" value="lion"/>
+                    <label for="lion">Lion</label>
+                </td>
+                <td class="Atd">
+                    <input type="radio" id="leopard" name="answer" value="leopard"/>
+                    <label for="leopard">Leopard</label>
+                </td>
+                <td class="Atd">
+                    <input type="radio" id="tiger" name="answer" value="tiger"/>
+                    <label for="tiger">Tiger</label>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <th>
+                2/ the dangerest animal is :
+            </th>
+            <tr>
+                <td class="Qtd"><img src="./images/snake.jpeg" class="Qimg" alt="image"></td>
+                <td class="Qtd"><img src="./images/cat.jpeg" class="Qimg" alt="image"></td>
+                <td class="Qtd"><img src="./images/hamster.jpeg" class="Qimg" alt="image"></td>
+            </tr>
+            <tr>
+                <td class="Atd">
+                    <input type="radio" id="snake" name="answer1" value="snake"/>
+                    <label for="snake">Snake</label>
+                </td>
+                <td class="Atd">
+                    <input type="radio" id="cat" name="answer1" value="cat"/>
+                    <label for="cat">Cat</label>
+                </td>
+                <td class="Atd">
+                    <input type="radio" id="hamster" name="answer2" value="hamster"/>
+                    <label for="tiger">Hamster</label>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <th>
+                3/ what color is the circle ?
+            </th>
+            <tr>
+                <td class="Qtd"><img src="./images/black-circle.png" class="Qimg" alt="image"></td>
+                <td class="Qtd"><img src="./images/red-rectangle.jpeg" class="Qimg" alt="image"></td>
+                <td class="Qtd"><img src="./images/yellow-rectangle.jpeg" class="Qimg" alt="image"></td>
+            </tr>
+            <tr>
+                <td class="Atd">
+                    <input type="radio" id="black" name="answer2" value="black"/>
+                    <label for="black">Black</label>
+                </td>
+                <td class="Atd">
+                    <input type="radio" id="red" name="answer2" value="red"/>
+                    <label for="red">Red</label>
+                </td>
+                <td class="Atd">
+                    <input type="radio" id="yellow" name="answer2" value="yellow"/>
+                    <label for="yellow">Yellow</label>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <th>
+                4/ 2+2 = ?
+            </th>
+            <tr>
+                <td class="Qtd">
+                    <div class="number"><span class="num">5</span></div>
+                </td>
+                <td class="Qtd">
+                    <div class="number"><span class="num">6</span></div>
+                </td>
+                <td class="Qtd">
+                    <div class="number">
+                        <span class="num">4</span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="Atd">
+                    <input type="radio" id="5" name="answer3" value="5"/>
+                    <label for="5">5</label>
+                </td>
+                <td class="Atd">
+                    <input type="radio" id="6" name="answer3" value="6"/>
+                    <label for="6">6</label>
+                </td>
+                <td class="Atd">
+                    <input type="radio" id="4" name="answer3" value="4"/>
+                    <label for="4">4</label>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <th>
+                5/ 7+1 = ?
+            </th>
+            <tr>
+                <td class="Qtd">
+                    <div class="number"><span class="num">9</span></div>
+                </td>
+                <td class="Qtd">
+                    <div class="number"><span class="num">2</span></div>
+                </td>
+                <td class="Qtd">
+                    <div class="number">
+                        <span class="num">8</span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="Atd">
+                    <input type="radio" id="9" name="answer4" value="9"/>
+                    <label for="9">9</label>
+                </td>
+                <td class="Atd">
+                    <input type="radio" id="2" name="answer4" value="2"/>
+                    <label for="2">2</label>
+                </td>
+                <td class="Atd">
+                    <input type="radio" id="8" name="answer4" value="8"/>
+                    <label for="8">8</label>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <th>
+                6/ inside the mouth there is a 
+            </th>
+            <tr>
+                <td class="Qtd"><img src="./images/nose.jpeg" class="Qimg" alt="image"></td>
+                <td class="Qtd"><img src="./images/tongue.jpeg" class="Qimg" alt="image"></td>
+                <td class="Qtd"><img src="./images/thumb.jpeg" class="Qimg" alt="image"></td>
+            </tr>
+            <tr>
+                <td class="Atd">
+                    <input type="radio" id="nose" name="answer5" value="nose"/>
+                    <label for="nose">Nose</label>
+                </td>
+                <td class="Atd">
+                    <input type="radio" id="tongue" name="answer5" value="tongue"/>
+                    <label for="tongue">Tongue</label>
+                </td>
+                <td class="Atd">
+                    <input type="radio" id="thumb" name="answer5" value="thumb"/>
+                    <label for="thumb">Thumb</label>
+                </td>
+            </tr>
+        </table>
+        <br>
+    </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    
+        <div class="container">
+            <input type="button" class="bttn" value="VERIFY" onclick="Result()"/>
+        </div>
+        <div class="row container">
+            <div class="col-md-6 col-lg-6 col-sm-12">
+                 <h1 class="result">Result :</h1>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-12">
+                 <h1 class="resContainer">
+                    <input type="text" class="resContainer" id="result" value=""/>
+                 </h1>
+            </div>
+        </div>
+    <br>
+    <br>
+    <br>
+</body>
+</html>

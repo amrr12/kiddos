@@ -1,0 +1,129 @@
+@charset "UTF-8" ; 
+
+body {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background: linear-gradient(#f9f9fb,#f9f9fb,#f9f9fb,pink);
+}
+
+a,a:hover {
+ text-decoration: none;   
+}
+
+.header {
+
+    background-color: #ECECEC;
+    height: 60px;
+    line-height: 60px;
+    align-items: center;
+}
+.divHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+  width: 20% ;
+  justify-content: space-between;
+}
+.nav a {
+    color: black;
+}
+.nav a:hover{
+    color: #1e0958;
+}
+
+.logo {
+    color: #f7f7f8;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px; 
+    
+}
+.my{
+    background-color: rgb(248, 147, 164);
+    color: white;
+    padding: 4px 4px;
+    border-radius: 10px;
+    
+}
+.portfolio {
+    color: black;
+}
+
+.img {
+    
+    width: 100%;
+    max-width: 100%;
+    height: 450PX; 
+    justify-self: flex-end;  
+    border-color:pink;
+}
+
+.img2{
+
+    width: 90%;
+    max-width: 100%;
+    height: 350PX; 
+    justify-self: flex-end; 
+
+}
+
+.row{
+    padding: 40px 0px;
+    align-items: center;
+}
+
+.introduction {
+  font-weight: bold;
+}
+.button {
+    margin-bottom: 10px;
+    background-color: rgb(248, 147, 164);
+    color: white;
+}
+
+.pp {
+    color: #555d50 ;
+    padding-top: 17px;
+}
+
+
+
+.h3skills {
+    /*padding: 5px 0px 0px 0px;*/
+    font-weight: 400;
+}
+
+
+.myportfilio article p{
+    padding:10px 5px;
+}
+
+.myportfilio article h4{
+    padding:10px 5px;
+}
+
+.article1 {
+    padding: 20px;
+    background-color: #ECECEC;
+    align-content: center;
+    height: 500px;
+}
+
+.imgArcticel{
+   height: 100px;
+   width: 150px;
+
+}
+
+.button {
+    align-self: flex-start;
+    margin-left: 10px;
+}
+
+.button2{
+    background-color: #f7f7f8;
+    color: rgb(35, 35, 240);
+    border-width: 0;
+    padding-top: 5px;
+}

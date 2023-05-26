@@ -1,0 +1,117 @@
+@charset "UTF-8" ; 
+
+@font-face {
+    font-family: "kids";
+    src: url('../../fonts/barely-enough-font/BarelyEnoughRegular-JRD6o.ttf');
+
+}
+
+@font-face {
+    font-family: "title";
+    src: url('../../fonts/Libre_Franklin/LibreFranklin-VariableFont_wght.ttf');
+
+}
+
+
+.sec1{
+    background-color: rgb(28, 35, 28);
+    padding: 45px;
+}
+
+h1{
+    font-family: "kids";
+    color: white;
+}
+
+p{
+    font-family:"title";
+    font-size: 40px;
+    color: white;
+    word-spacing: 10px;
+    padding-top: 100px;
+}
+
+span{
+    text-shadow: 2px 1px gray;
+    font-weight: bolder;
+}
+
+.p1{
+    padding-top: 0px;
+    font-family: "title";
+    font-size: 20px;
+    font-weight: lighter;
+    word-spacing: 5px;
+}
+
+.img{
+    height: 500px;
+    width: fit-content;
+    border-radius: 10px;
+    box-shadow: 2px 1px 2px 5px rgb(117, 118, 117);
+}
+
+h2{
+    font-size: 40px;
+    color: black;
+    text-transform: uppercase;
+    word-spacing: 10px;
+}
+
+
+.Qimg{
+    height: 250;
+    width: 350px;
+    border-radius: 10px;
+}
+.Qtd{
+    padding: 10px 40px;
+}
+.Atd{
+    text-align: center;
+    padding-top: 5px;
+    font-weight: bolder;
+}
+
+.number{
+    display: flex;
+    justify-content: center;
+    height: 250;
+    width: 350px;
+    border-radius: 10px;
+    background-color: rgb(40, 220, 40);
+}
+.num{
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.result{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 60px;
+    color: black;
+    padding-left: 40px ;
+}
+
+.resContainer{
+    border-width: 0px;
+    width: 100%;
+    color: green;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 5px;
+
+}
+
+.bttn{
+   width: 80px;
+   padding: 15px;
+   color: white;
+   background-color: rgb(28, 35, 28);
+   border: 0px;
+   border-radius: 15px;
+}

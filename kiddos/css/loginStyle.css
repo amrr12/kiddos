@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "kiddos2";
+    src: url('../fonts/barely-enough-font/BarelyEnoughRegular-JRD6o.ttf');
+}  
+
+.login-container{
+padding-top: 0;
+margin-top: 0;
+}
+.half-circle{
+    width: 100%;
+    height: 60%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-image: url("../images/ppp.webp");
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding-top: 100px;
+}
+
+
+.kiddos {
+    
+    color: rgb(95,4,107);
+    font-family: "kiddos2";
+    font-size: 55px;
+    font-weight: bold;
+    text-shadow: 4px 4px #FFFFFF;
+}
+
+.login-form{
+    position: relative;
+    top: -300px;
+    width: 350px;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(95,4,107, 0.4);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.login{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(95,4,107);
+}
+
+.input-group{
+   padding: 2px;
+   border-radius: 5px;
+   width: 230px;
+   height: 30px;
+   box-shadow: 0 0 4px rgba(95,4,107, 0.5);
+}
+.inputs{
+    border: none;
+    width: 100%;
+    height: 100%;
+
+}
+.inputs::placeholder{
+    color: rgb(95,4,107);
+    
+}
+.btn1{
+    border: 1px solid rgb(95, 4, 107);
+    padding:8px;
+    width: 90px;
+    background-color: rgb(95, 4, 107);
+    color: white;
+    border-radius: 10px;
+}
+.btn2{
+    padding:8px;
+    width: 90px;
+    background-color: white ;
+    border: 1px solid rgb(95, 4, 107);
+    color:rgb(95, 4, 107);
+    border-radius: 10px;
+}
+
+.btn1:hover{
+    transform: scale(1.05);
+}
+
+.btn2:hover{
+    transform: scale(1.05);
+    border: 2px solid rgb(255, 0, 0);
+}

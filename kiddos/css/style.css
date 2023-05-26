@@ -1,0 +1,395 @@
+@charset "UTF-8" ; 
+
+@font-face {
+    font-family: "kiddos1";
+    src: url('../fonts/whoa-sauce-font/WhoaSaucePersonalUseBold-mLmV5.ttf');
+
+}
+
+@font-face {
+    font-family: "kiddos2";
+    src: url('../fonts/barely-enough-font/BarelyEnoughRegular-JRD6o.ttf');
+}  
+@font-face {
+    font-family: "kiddos3";
+    src: url('../fonts/hugs-font/HugsPersonalUseBold-Eaedj.ttf');
+}
+@font-face {
+    font-family: "quote";
+    src: url('../fonts/wonderbar-font/Wonderbar-pALD.ttf');
+}
+
+/*----------------------------------HEADER--------------------------------*/
+
+header {
+    background-color: linear-gradient( rgb(241, 185, 247),white);
+    
+}
+.divHeader{
+    padding-top: 25px;
+    padding-left: 60px;
+
+}
+
+h1 {
+    font-family: "kiddos2";
+    font-size: 35px;
+    text-transform: uppercase;
+    color: rgb(95, 4, 107);
+}
+
+.h11{
+    padding-bottom: 30px;
+    font-family: "kiddos2";
+    font-size: 35px;
+    text-transform: uppercase;
+    color: rgb(0, 166, 255);
+}
+
+.nav{
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+header a{
+    word-spacing: 30px;
+    color: rgb(95, 4, 107);
+    text-decoration: none;
+    font-weight: bold;
+
+}
+header a:hover{
+    color: gray;
+}
+
+.btnContainer{
+    justify-content: flex-end;
+    padding: 9px; 
+}
+.btnHEADER {
+ background-color: rgb(95, 4, 107);
+ color: white;
+ width: 130px;
+ border-radius: 20px;
+ border-color: white;
+}
+
+button:hover{
+    color:rgb(95,4,107);
+    background-color: white;
+    border-color: rgb(95,4,107);
+}
+
+/*----------------------------------HEADER--------------------------------*/
+
+
+
+/*-------------------------HEADER + SECTION1 BACKGROUND----------------------*/
+
+.section1 {
+    background-image: url("../images/ppp.webp");
+}
+/*---------------------------------------------------------------------------*/
+
+/*--------------------------------SECTION1-----------------------------------*/
+
+
+.quoteContainer{
+ height: 500px;
+ padding-top: 100px ;
+}
+
+
+.h4-1{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-size: 60px;
+    color: rgb(230, 17, 148);
+    text-align: center;
+    text-shadow: 2px 2px #FFFFFF;
+    
+  
+}
+
+.kiddos {
+    color: rgb(95,4,107);
+    font-family: "kiddos2";
+    font-size: 55px;
+    font-weight: bold;
+    text-shadow: 4px 4px #FFFFFF;
+}
+
+.quote{
+    font-family: "quote";
+    color: rgb(0, 72, 255);
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 2px 2px #FFFFFF;
+}
+
+.play {
+
+    color: rgb(245, 5, 5) ;
+    font-family: "quote";
+    font-size: 60px;
+    text-shadow: 2px 2px #FFFFFF;
+    
+}
+
+
+
+.quote2 {
+    color: rgb(2, 177, 2);
+    font-size:40px;
+    text-align: center;
+    text-shadow: 2px 2px #FFFFFF;
+}
+
+.fadeAway {
+    height: 80px;
+    background-image:linear-gradient(rgba(0,0,0,0),white);
+}
+
+/*---------------------------------------------------------------------------*/
+
+
+/*---------------------------SECTION2-------------------------*/
+.section2{
+    padding: 50px;
+}
+
+.section2 h1 {
+    text-align: center;
+    word-spacing: 20px;
+}
+
+.padding-card{
+  padding: 20px;
+}
+h2{
+    color: rgb(95,4,107);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+.seeMore{
+    color:rgba(190, 26, 141, 0.7);
+}
+
+.kindergarten{
+    padding: 10px;
+}
+
+.imgcard{
+    border-radius: 10%;
+}
+
+.article1 {
+
+    border-radius: 10%;
+    box-shadow: 10px 10px rgba(190, 26, 141, 0.3);
+    
+}
+article:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+} 
+ 
+
+.cardContent {
+    padding: 20px;
+}
+
+
+.videoSection{
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px 4px rgb(0, 166, 255,0.2);
+    
+}
+.videoBackground{
+    background-image: url("../images/ddd.webp");
+    padding:10px 0px 10px 0px;
+}
+
+.video{
+    height: 300px;
+    padding-left: 250px;
+    border-radius: 20px;
+    
+}
+
+.drawDiv{
+    background-image: linear-gradient( to right, rgb(2, 144, 221),rgb(255, 255, 255));
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.sportsDiv{
+    background-image: linear-gradient( to left, rgb(22, 245, 67),rgb(255, 255, 255));
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/*--------------------------lists---------------------------------*/
+
+ul p {
+    padding-top: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+li{
+    font-size: 16px;
+    padding-top: 18px;
+    color: white;
+    
+}
+
+.sportsDiv ul p {
+    padding-top: 5px;
+    padding-left: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(6, 6, 6);
+}
+.sportsDiv li {
+    font-size: 16px;
+    padding-top: 18px;
+    color: rgb(4, 4, 4);
+}
+
+/*--------------------------lists---------------------------------*/
+
+.video1 {
+    padding-left: 10px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.videoBackground1{
+    background-image: url("../images/ddd.webp");
+    padding:10px 0px 10px 0px;
+}
+
+/*------------------------------------------------------------*/
+
+/*----------------------------- SECTION 3 --------------------------------- */  
+.section3{
+    padding: 40px;
+}
+
+.tableContainer{
+    background-image: url("../images/forDrawing.webp");
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px 4px rgb(0, 166, 255,0.2);
+}
+
+/*----------------------table------------------------*/
+
+table,tr,td{
+    border: 1px solid;
+    border-color: black;
+    padding: 5px;
+}
+
+.scPart1{
+    background-color: rgb(255, 21, 0);
+}
+.scpart2{
+    background-color: rgb(255, 153, 0);
+}
+.scPart3{
+    background-color: rgb(255, 247, 0);   
+}
+.scPart4{
+    background-color: rgb(0, 255, 0);
+}
+.scPart5{
+    background-color: rgb(0, 149, 255);   
+}
+.scPart6{
+    background-color: rgb(146, 60, 238);
+}
+.scPart7{
+    background-color: rgb(226, 43, 220);
+}
+.scPart8{
+    background-color: rgb(244, 167, 241);
+}
+.scPart9{
+    background-color: rgb(167, 212, 244);   
+}
+.scPart10{
+    background-color: rgb(167, 244, 226);   
+}
+.scPart11{
+    background-color: rgb(248, 240, 128);
+}
+.tdPart1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.tdPart2 {
+    width: 73%;
+    padding-left: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+/*----------------------------------------------*/
+
+/*--------------------------------------------------------------*/  
+
+
+/*------------------------------footer---------------------------*/
+
+footer{
+    background-image: linear-gradient(white,rgb(255, 186, 146));
+}
+
+form{
+    background-image:linear-gradient( white, rgba(106, 201, 179, 0.667));
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+}
+
+
+.button1{
+    align-self: center;
+    color:black ;
+    background-color:  white;
+}
+
+.button2{
+    color: red;
+    background-color:  white;
+}
+
+.info{
+    padding: 20px;
+}
+
+.info h2{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.info a {
+    color: black;
+}
+.info a:hover{
+    color: aqua;
+}

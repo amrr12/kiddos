@@ -1,0 +1,90 @@
+@charset "UTF-8" ; 
+
+@font-face {
+    font-family: "kids";
+    src: url('../fonts/Rubik_Vinyl/RubikVinyl-Regular.ttf');
+
+}
+
+
+
+
+.div1{
+    padding: 55px;
+    padding-left: 200px;
+}
+h1{
+    color: rgb(95, 4, 107);
+    font-weight: bolder;
+}
+.spacing{
+    padding-left: 40px;
+}
+
+input{
+    border: none;
+    border-bottom: 1.5px solid rgb(95, 4, 107);
+    width: 200px;
+}
+
+input:hover{
+    border-bottom: 1.5px solid rgb(246, 157, 74);
+    
+}
+input::placeholder{
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.genre{
+  width: fit-content;
+}
+
+.tdGen{
+   padding: 5px;
+}
+
+
+.btn1{
+    padding:8px;
+    width: 150px;
+    background-color: rgb(95, 4, 107);
+    color: white;
+    border-radius: 20px;
+}
+.btn2{
+    padding:8px;
+    width: 150px;
+    background-color: white ;
+    border: 1px solid rgb(95, 4, 107);
+    color:rgb(95, 4, 107);
+    border-radius: 20px;
+}
+
+
+.div2{
+    height: 100%;
+    background-image: url("../images/ppp.webp");
+}
+
+.div2 p {
+    color: black;
+    font-family: "kids";
+    font-size: 50px;
+    padding-top: 35%;
+
+}
+.div2 span{
+    padding-left: 10px;
+}
+.div2 h1{
+    color: rgb(95, 4, 107);
+    font-family: "kids";
+    font-size: 80px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(95, 4, 107);;
+}
